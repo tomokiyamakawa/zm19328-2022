@@ -1,0 +1,1 @@
+function img() {document.getElementById('logo3').src ="./image/kokinchancry.jpg";}

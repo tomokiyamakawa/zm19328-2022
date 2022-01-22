@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-
+<body>
     <meta charset="UTF-8">
     <title> 後期期末プロジェクト</title>
     <link rel="stylesheet" href="mystyle.css">
@@ -16,23 +16,28 @@
   <h1>後期期末プロジェクト</h1>
   <br>
 
-    <h1>挨拶</h1>
+    <h2>挨拶</h2>
     <input type="button" value="あいさつ" 
  onclick="sayhello71();">
  <p>誰？<input type="text" id="who71"></p>
 
 <script src="ex1-1.js"></script>
 <script src="ex1-2.js"></script>
-
+<script src="ex1-3.js"></script>
+<p class="sample3">アンパンマンキャラクターを元に画像変換！</p>
 <br>
 <div id="image1" >
 <input type="button" value="画像の変更" onclick="imgchange1();">
 <img src='./image/anpanmanface.jpg' id="logo" alt="anpanmanlogo" class="imagechange">
 <br>
-<br>
 <input type="button" value="元に戻す" onclick="imgchange2();">
 <!--<img src='./image/anpanmanlogo.png' id="top" alt="anpanmanlogo">-->
 </div>
+<br>
+
+<input type="button" value="画像の変更３秒"onclick="setTimeout('img()',3000)">
+<img src="./image/kokinchansmile.jpg" id="logo3" alt="kokinchancry"class="logo3">
+<br>
 
 </body>
 </html> 
